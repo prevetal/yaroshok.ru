@@ -1,0 +1,1213 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 26px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .block.bg_white,
+    .block.bg_gradient
+    {
+        padding: 36px 0 40px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: -10px;
+        right: -10px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 15px 19px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        width: calc(100% - 40px);
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .accordion_item .data
+    {
+        margin-top: 0;
+        padding: 0 19px 19px;
+    }
+
+
+    .accordion_item .data .text_block:not(.default)
+    {
+        padding: 4px 0 4px 11px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 15px;
+    }
+
+
+    .form .input
+    {
+        height: 40px;
+    }
+
+
+    .form textarea
+    {
+        height: 150px;
+        padding: 11px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 40px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        width: 176px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .page_head .btn
+    {
+        height: 40px;
+        margin-top: 22px;
+    }
+
+
+    .page_head .bg
+    {
+        right: -20px;
+        bottom: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .items
+    {
+        font-size: 14px;
+    }
+
+
+    .first_section .items:before
+    {
+        height: 14px;
+    }
+
+
+    .first_section .items > *:before
+    {
+        top: 1px;
+    }
+
+
+    .first_section .items > *:after
+    {
+        top: 17px;
+    }
+
+
+    .first_section .btns a
+    {
+        height: 40px;
+    }
+
+
+    .first_section .image
+    {
+        width: 248px;
+    }
+
+
+    .first_section .bg
+    {
+        bottom: 100px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .services .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .services .service
+    {
+        padding: 19px;
+    }
+
+
+    .services .service .link
+    {
+        margin-top: 20px;
+    }
+
+
+    .services .service .link a
+    {
+        height: 40px;
+    }
+
+
+
+    /*-----------------
+        Cost depend
+    -----------------*/
+    .cost_depend .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .cost_depend .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .cost_depend .item
+    {
+        padding: 19px;
+    }
+
+
+    .cost_depend .item .number
+    {
+        font-size: 22px;
+    }
+
+
+    .cost_depend .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .advantages .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 19px;
+    }
+
+
+    .advantages .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        padding: 19px;
+    }
+
+
+    .contacts_info .label
+    {
+        margin-bottom: 9px;
+        padding-bottom: 8px;
+    }
+
+
+    .contacts_info .phone
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .data
+    {
+        padding: 29px;
+    }
+
+
+    .order .title
+    {
+        font-size: 20px;
+    }
+
+
+    .order .btn
+    {
+        height: 40px;
+    }
+
+
+
+    .order .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info .data
+    {
+        padding: 19px;
+    }
+
+
+    .payment_info .methods
+    {
+        margin-top: 20px;
+    }
+
+
+    .payment_info .methods .method
+    {
+        padding: 9px 14px;
+    }
+
+
+    .payment_info .methods .method .logo
+    {
+        align-self: center;
+
+        width: 40px;
+        height: 30px;
+    }
+
+    .payment_info .methods .method .logo + *
+    {
+        width: calc(100% - 55px);
+    }
+
+
+    .payment_info .methods .method .row > * + *
+    {
+        margin-top: 5px;
+    }
+
+
+
+    /*------------
+        videos
+    ------------*/
+    .videos .row
+    {
+        margin-bottom: -20px;
+    }
+
+
+    .videos .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .videos .video .name
+    {
+        margin-top: 10px;
+    }
+
+
+
+    .videos .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe
+    {
+        padding: 20px;
+    }
+
+
+    .subscribe .icon
+    {
+        top: 25px;
+        left: 20px;
+
+        width: 43px;
+        height: 30px;
+    }
+
+
+    .subscribe .title
+    {
+        font-size: 18px;
+
+        min-height: 30px;
+        padding-left: 58px;
+    }
+
+
+    .subscribe .desc
+    {
+        margin-top: 8px;
+    }
+
+
+    .subscribe .link
+    {
+        margin-top: 12px;
+    }
+
+
+    .subscribe .link a
+    {
+        height: 40px;
+
+        border-width: 1px;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .row
+    {
+        margin-bottom: -20px;
+    }
+
+
+    .education .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .education .item .info
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    .education .bg
+    {
+        right: -20px;
+        bottom: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        About me
+    --------------*/
+    .about_me .data
+    {
+        padding: 20px;
+    }
+
+
+    .about_me .data .author .photo
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .about_me .data .author .name
+    {
+        font-size: 18px;
+
+        width: calc(100% - 120px);
+    }
+
+
+    .about_me .data .info .item
+    {
+        padding: 4px 0 4px 15px;
+    }
+
+
+    .about_me .data .info .item .val
+    {
+        font-size: 14px;
+    }
+
+
+    .about_me .data .info .btn
+    {
+        height: 40px;
+    }
+
+
+    .about_me .data .sections
+    {
+        margin-top: 20px;
+    }
+
+
+    .about_me .data .section
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper-slide
+    {
+        width: 224px;
+    }
+
+
+    .reviews .more_btn
+    {
+        height: 40px;
+    }
+
+
+
+    /*------------
+        Thanks
+    ------------*/
+    .thanks .swiper-slide
+    {
+        width: 224px;
+    }
+
+
+
+    /*------------------
+        Consult info
+    ------------------*/
+    .consult_info .author .title
+    {
+        min-height: 175px;
+        padding-left: 180px;
+    }
+
+
+    .consult_info .author .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .consult_info .author .desc blockquote
+    {
+        padding: 4px 0 4px 11px;
+    }
+
+
+    .consult_info .author .photo
+    {
+        width: 160px;
+    }
+
+
+
+    .consult_info .chapter
+    {
+        margin-top: 20px;
+        padding: 19px;
+    }
+
+
+    .consult_info .chapter > .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px;
+    }
+
+    .consult_info .chapter > .title small
+    {
+        font-size: 14px;
+    }
+
+
+
+    .consult_info .problems .item
+    {
+        padding: 12px 16px;
+    }
+
+
+    .consult_info .problems .other
+    {
+        padding: 0 16px;
+    }
+
+
+
+    .consult_info .course .data > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .consult_info .cost .price .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .consult_info .cost .data > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .info .item .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .tariffs .info .item .icon + *
+    {
+        width: calc(100% - 72px);
+    }
+
+
+
+    .tariffs .row
+    {
+        margin-bottom: -20px;
+    }
+
+
+    .tariffs .row > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .tariffs .tariff,
+    .tariffs .tariff .buy
+    {
+        padding: 19px;
+    }
+
+
+    .tariffs .tariff .name
+    {
+        font-size: 18px;
+
+        width: calc(100% - 84px);
+    }
+
+
+    .tariffs .tariff .features
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .tariffs .tariff .buy .link a,
+    .tariffs .tariff .buy .btn
+    {
+        height: 40px;
+    }
+
+
+
+    .tariffs .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper-slide
+    {
+        width: calc(100vw - 64px);
+    }
+
+
+    .cases .case
+    {
+        padding: 19px;
+    }
+
+
+    .cases .case * + .images
+    {
+        margin-top: 20px;
+    }
+
+
+    .cases .case .images .section
+    {
+        padding: 16px;
+    }
+
+
+
+    .cases .bg
+    {
+        right: -20px;
+        bottom: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .step
+    {
+        padding: 19px;
+    }
+
+
+    .steps .step .icon
+    {
+        height: 60px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .add_btn
+    {
+        height: 40px;
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------------
+        Education head
+    --------------------*/
+    .education_head .row
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .education_head .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .education_head .item
+    {
+        padding: 19px;
+    }
+
+
+    .education_head .item .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .education_head .item .name
+    {
+        width: calc(100% - 72px);
+    }
+
+
+
+    /*---------------------
+        Education video
+    ---------------------*/
+    .education_video .video .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*--------------------
+        Education plan
+    --------------------*/
+    .education_plan .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .education_plan .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .education_plan .item
+    {
+        padding: 19px;
+    }
+
+
+    .education_plan .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------------------
+        Education additional
+    --------------------------*/
+    .education_additional .row
+    {
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .education_additional .row > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .education_additional .item .number
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*---------------------
+        Education steps
+    ---------------------*/
+    .education_steps .step
+    {
+        padding: 19px;
+    }
+
+
+    .education_steps .step .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .education_steps .step .icon + *
+    {
+        width: calc(100% - 80px);
+    }
+
+
+
+    /*--------------
+        Expenses
+    --------------*/
+    .expenses .row
+    {
+        margin-bottom: -16px;
+        margin-left: 0;
+    }
+
+
+    .expenses .row > *
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-left: 0;
+    }
+
+
+    .expenses .item .number
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Course cert
+    -----------------*/
+    .course_cert .bg
+    {
+        right: -20px;
+        bottom: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*-----------------
+        Course info
+    -----------------*/
+    .course_info .head .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .course_info .head .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .course_info .head .item
+    {
+        padding: 19px;
+    }
+
+
+
+    .course_info .video .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        What you get
+    ------------------*/
+    .what_you_get .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .what_you_get .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------------
+        Course results
+    --------------------*/
+    .course_results .swiper-slide
+    {
+        width: calc(100vw - 64px);
+    }
+
+
+    .course_results .image
+    {
+        width: 100%;
+    }
+
+
+    .course_results .item
+    {
+        padding: 19px;
+    }
+
+
+    .course_results .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*---------------------
+        Course for whom
+    ---------------------*/
+    .course_for_whom .item
+    {
+        padding: 19px;
+    }
+
+
+    .course_for_whom .bg
+    {
+        right: -20px;
+        bottom: -20px;
+
+        width: 100%;
+    }
+
+
+
+    /*-------------------------
+        Course step by step
+    -------------------------*/
+    .course_step_by_step .bg
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 100%;
+    }
+
+
+    .course_step_by_step .swiper-slide
+    {
+        width: calc(100vw - 64px);
+    }
+
+
+    .course_step_by_step .item
+    {
+        padding: 19px;
+    }
+
+
+
+    /*-----------------------------
+        Course skills & results
+    -----------------------------*/
+    .course_skills_results .data
+    {
+        padding: 19px;
+    }
+
+
+    .course_skills_results .tools .item
+    {
+        height: 88px;
+    }
+
+
+
+    /*-------------------
+        Course values
+    -------------------*/
+    .course_values .row
+    {
+        margin-bottom: -16px;
+    }
+
+
+    .course_values .row > *
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .course_values .item
+    {
+        padding: 19px;
+    }
+
+
+
+    /*------------------
+        Course steps
+    ------------------*/
+    .course_steps .step
+    {
+        padding: 19px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 24px;
+    }
+
+
+    footer .phone
+    {
+        font-size: 22px;
+    }
+
+
+    footer .youtube_link a
+    {
+        padding: 10px 19px;
+    }
+
+
+    footer .youtube_link .icon
+    {
+        width: 26px;
+        height: 18px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 31px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+}

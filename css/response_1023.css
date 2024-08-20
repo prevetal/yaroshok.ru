@@ -1,0 +1,1155 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 40px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of4,
+    .form .columns > *.width3of4
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 20px;
+
+        width: calc(100% - 52px);
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 100%;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+
+        overscroll-behavior-y: contain;
+    }
+
+
+    header .data
+    {
+        order: 2;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .youtube_link
+    {
+        font-size: 16px;
+
+        display: block;
+        order: 1;
+
+        margin-top: 24px;
+    }
+
+
+    header .youtube_link a
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+    header .youtube_link img
+    {
+        width: 32px;
+        height: 22px;
+        margin: 0 10px 0 0;
+    }
+
+
+    header .email
+    {
+        font-size: 16px;
+
+        order: 1;
+
+        margin-top: 24px;
+        margin-right: auto;
+        margin-left: 47px;
+    }
+
+
+    header .contacts
+    {
+        width: 100%;
+
+        gap: 20px;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 22px;
+    }
+
+
+    header .contacts .messengers a + a
+    {
+        margin-left: 16px;
+    }
+
+
+    header .contacts .messengers img
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    header .consult_btn
+    {
+        order: 2;
+
+        width: 100%;
+        height: 40px;
+        margin-top: 30px;
+    }
+
+
+    header .bottom
+    {
+        padding: 72px 0 30px;
+    }
+
+
+    header .menu
+    {
+        display: block;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .menu_item > a,
+    header .menu_item:hover > a,
+    header .menu_item > a.active
+    {
+        justify-content: flex-start;
+
+        height: auto;
+
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    header .sub_menu
+    {
+        position: relative;
+
+        display: block;
+        visibility: visible;
+
+        padding: 15px 0 12px 35px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .10);
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        min-height: 280px;
+    }
+
+
+    .page_head .title
+    {
+        width: 420px;
+    }
+
+
+    .page_head .desc
+    {
+        font-size: 18px;
+
+        width: 420px;
+        margin-top: 10px;
+    }
+
+
+    .page_head .img
+    {
+        right: 24px;
+    }
+
+
+    .page_head .img5
+    {
+        width: 320px;
+    }
+
+
+    .page_head .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-bottom: 160px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    .first_section .btns
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .image
+    {
+        width: 320px;
+        margin-top: 48px;
+    }
+
+
+    .first_section .bg
+    {
+        top: auto;
+        right: 0;
+        bottom: 200px;
+        left: 0;
+
+        width: 480px;
+        margin: 0 auto;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .services .service .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------
+        Cost depend
+    -----------------*/
+    .cost_depend .item .number
+    {
+        font-size: 26px;
+
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+
+    .cost_depend .item .number + *
+    {
+        width: 100%;
+    }
+
+
+    .cost_depend .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .cost_depend .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .advantages .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .contacts_info .row > *:first-child
+    {
+        width: calc(100% - 24px);
+    }
+
+
+    .contacts_info .label
+    {
+        font-size: 18px;
+
+        padding-bottom: 11px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .title
+    {
+        font-size: 24px;
+    }
+
+
+    .order .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .order .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info .info
+    {
+        width: 100%;
+    }
+
+
+    .payment_info .info .title
+    {
+        font-size: 18px;
+    }
+
+
+    .payment_info .requisites > * + *,
+    .payment_info .files > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    .payment_info .methods
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .payment_info .methods .method
+    {
+        padding: 15px 19px;
+    }
+
+
+    .payment_info .methods .method .logo + *
+    {
+        flex-direction: row;
+    }
+
+
+    .payment_info .methods .method .row > * + *
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*------------
+        videos
+    ------------*/
+    .videos .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    .videos .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe .icon
+    {
+        margin-right: 0;
+    }
+
+
+    .subscribe .info
+    {
+        width: calc(100% - 109px);
+        margin-left: auto;
+    }
+
+
+    .subscribe .link
+    {
+        width: 100%;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .item .info
+    {
+        padding: 20px;
+    }
+
+
+    .education .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .education .item .btn
+    {
+        font-size: 14px;
+    }
+
+
+    .education .item .btn .icon
+    {
+        width: 27px;
+        height: 12px;
+    }
+
+
+
+    .education .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*--------------
+        About me
+    --------------*/
+    .about_me .data .info
+    {
+        width: 100%;
+        padding: 0;
+
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+
+    .about_me .data .author .name
+    {
+        font-size: 22px;
+    }
+
+
+    .about_me .data .info .item
+    {
+        padding: 8px 0 8px 19px;
+    }
+
+
+    .about_me .data .info .item .val
+    {
+        font-size: 18px;
+    }
+
+
+    .about_me .data .sections
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .about_me .data .section .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Consult info
+    ------------------*/
+    .consult_info .author
+    {
+        position: relative;
+
+        margin-bottom: 40px;
+    }
+
+
+    .consult_info .author .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .consult_info .author .title
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        min-height: 218px;
+        margin-bottom: 20px;
+        padding-left: 240px;
+    }
+
+
+    .consult_info .author .photo
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 200px;
+    }
+
+
+
+    .consult_info .problems .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .info
+    {
+        margin-left: -24px;
+    }
+
+
+    .tariffs .info > *
+    {
+        width: calc(50% - 24px);
+        max-width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .tariffs .info .item .icon + *
+    {
+        width: calc(100% - 80px);
+
+        white-space: normal;
+    }
+
+
+    .tariffs .info .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    .tariffs .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .tariffs .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper-slide,
+    .cases .swiper-slide.small
+    {
+        width: 700px;
+    }
+
+
+    .cases .case .images .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row > *
+    {
+        width: calc(50% - 48px);
+    }
+
+
+    .steps .row > *.sep
+    {
+        display: none;
+    }
+
+
+    .steps .step:nth-child(4n+3):after
+    {
+        display: block;
+    }
+
+    .steps .step:nth-child(3n+2):after,
+    .steps .step:last-child:after
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Education head
+    --------------------*/
+    .education_head .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .education_head .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .education_head .item .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*---------------------
+        Education video
+    ---------------------*/
+    .education_video .thumb .icon
+    {
+        width: 80px;
+        height: 56px;
+    }
+
+
+    .education_video .thumb .desc
+    {
+        font-size: 18px;
+
+        padding: 24px 30px;
+    }
+
+
+
+    /*--------------------
+        Education plan
+    --------------------*/
+    .education_plan .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*--------------------------
+        Education additional
+    --------------------------*/
+    .education_additional .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*---------------------
+        Education steps
+    ---------------------*/
+    .education_steps .row > *.sep
+    {
+        display: none;
+    }
+
+
+    .education_steps .step .number,
+    .education_steps .step .name
+    {
+        font-size: 18px;
+    }
+
+
+    .education_steps .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*--------------
+        Expenses
+    --------------*/
+    .expenses .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .expenses .item .desc b
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------------
+        Education excerpts
+    ------------------------*/
+    .education_excerpts .video .icon
+    {
+        width: 80px;
+        height: 56px;
+    }
+
+
+
+    /*-----------------
+        Course cert
+    -----------------*/
+    .course_cert .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*-----------------
+        Course info
+    -----------------*/
+    .course_info .head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .course_info .head .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    .course_info .video .desc
+    {
+        font-size: 18px;
+
+        padding: 24px 30px;
+    }
+
+
+
+    /*------------------
+        What you get
+    ------------------*/
+    .what_you_get .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*--------------------
+        Course results
+    --------------------*/
+    .course_results .swiper-slide
+    {
+        width: calc(100vw - 88px);
+    }
+
+
+    .course_results .grid
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .course_results .big_image
+    {
+        width: 100%;
+    }
+
+
+
+    .course_results .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*---------------------
+        Course for whom
+    ---------------------*/
+    .course_for_whom .item .thumb
+    {
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .course_for_whom .item .name
+    {
+        font-size: 20px;
+
+        width: calc(100% - 140px);
+    }
+
+
+    .course_for_whom .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+    .course_for_whom .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*-------------------------
+        Course step by step
+    -------------------------*/
+    .course_step_by_step .swiper-slide
+    {
+        width: calc(100vw - 88px);
+    }
+
+
+    .course_step_by_step .bg
+    {
+        bottom: -24px;
+
+        width: 480px;
+    }
+
+
+
+    /*-----------------------------
+        Course skills & results
+    -----------------------------*/
+    .course_skills_results .result
+    {
+        width: 100%;
+    }
+
+
+    .course_skills_results .data .title
+    {
+        font-size: 20px;
+    }
+
+
+    .course_skills_results .tools
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .course_skills_results .tools .more
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------------
+        Course values
+    -------------------*/
+    .course_values .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .course_values .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .masonry.hidden:after
+    {
+        height: 200px;
+    }
+
+
+
+    /*------------------
+        Course steps
+    ------------------*/
+    .course_steps .row > *.sep
+    {
+        display: none;
+    }
+
+
+    .course_steps .step .icon
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .course_steps .step .icon + *
+    {
+        width: calc(100% - 88px);
+    }
+
+
+    .course_steps .step .number,
+    .course_steps .step .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    footer .bottom .col
+    {
+        width: 50%;
+    }
+
+
+    footer .bottom .col:first-child
+    {
+        display: block;
+
+        width: auto;
+    }
+
+
+    footer .bottom .col > * + *,
+    footer .bottom .col:first-child > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    footer .phone
+    {
+        width: 50%;
+
+        text-align: right;
+    }
+
+
+    footer .youtube_link
+    {
+        order: 4;
+
+        margin-top: 24px;
+    }
+}

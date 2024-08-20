@@ -1,0 +1,1259 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 32px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .block.bg_white,
+    .block.bg_gradient
+    {
+        padding: 52px 0 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 15px 23px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+
+        width: calc(100% - 48px);
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .accordion_item .data
+    {
+        margin-top: 0;
+    }
+
+
+    .accordion_item .data .text_block:not(.default)
+    {
+        padding: 8px 0 8px 15px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of4,
+    .form .columns > *.width3of4
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        width: 200px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+
+        min-height: 400px;
+        margin-bottom: 48px;
+        padding-top: 32px;
+    }
+
+
+    .page_head .btn
+    {
+        width: 100%;
+        height: 44px;
+    }
+
+
+    .page_head .img
+    {
+        right: 0;
+        left: 0;
+
+        width: 200px;
+        margin: 0 auto;
+    }
+
+
+    .page_head .img3
+    {
+        width: 208px;
+    }
+
+    .page_head .img4,
+    .page_head .img5
+    {
+        width: 300px;
+    }
+
+
+    .page_head .img6
+    {
+        width: 260px;
+    }
+
+
+    .page_head .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block ul li + li
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .items
+    {
+        font-size: 16px;
+
+        margin-top: 36px;
+    }
+
+
+    .first_section .items > *
+    {
+        padding-left: 32px;
+    }
+
+
+    .first_section .btns > *
+    {
+        width: 100%;
+    }
+
+
+    .first_section .btns > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .first_section .image
+    {
+        width: 280px;
+        margin-top: 40px;
+    }
+
+
+    .first_section .bg
+    {
+        bottom: 120px;
+
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-left: 0;
+    }
+
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services .service .icon
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 16px;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------------
+        Cost depend
+    -----------------*/
+    .cost_depend .row
+    {
+        margin-left: 0;
+    }
+
+
+    .cost_depend .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .cost_depend .item .number
+    {
+        font-size: 24px;
+    }
+
+
+    .cost_depend .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 16px;
+    }
+
+
+    .advantages .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .advantages .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -28px;
+    }
+
+
+    .contacts_info .row > *,
+    .contacts_info .row > *:first-child
+    {
+        width: calc(100% - 24px);
+        margin-bottom: 28px;
+    }
+
+
+    .contacts_info .label
+    {
+        margin-bottom: 16px;
+        padding-bottom: 7px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .first_section + .order
+    {
+        margin-top: -40px;
+    }
+
+
+    .order .data
+    {
+        padding: 31px;
+    }
+
+
+    .order .title
+    {
+        font-size: 22px;
+    }
+
+
+    .order .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Payment info
+    ------------------*/
+    .payment_info .methods .method
+    {
+        padding: 15px;
+    }
+
+
+    .payment_info .methods .method .logo + *
+    {
+        flex-direction: column;
+    }
+
+
+    .payment_info .methods .method .row > * + *
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*------------
+        videos
+    ------------*/
+    .videos .row
+    {
+        margin-left: 0;
+    }
+
+
+    .videos .row > *,
+    .videos .row > *.big
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .videos .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*---------------
+        Subscribe
+    ---------------*/
+    .subscribe
+    {
+        position: relative;
+    }
+
+
+    .subscribe .icon
+    {
+        position: absolute;
+        top: 24px;
+        left: 24px;
+
+        width: 72px;
+        height: 52px;
+    }
+
+
+    .subscribe .info
+    {
+        width: 100%;
+    }
+
+
+    .subscribe .title
+    {
+        font-size: 20px;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        min-height: 52px;
+        padding-left: 96px;
+    }
+
+
+    .subscribe .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .row
+    {
+        margin-left: 0;
+    }
+
+
+    .education .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .education .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    .education .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*--------------
+        About me
+    --------------*/
+    .about_me .data .section ul li:before
+    {
+        top: 8px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper-slide
+    {
+        width: 240px;
+    }
+
+
+    .reviews .masonry.hidden:after
+    {
+        height: 100px;
+    }
+
+
+    .reviews .masonry .item
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Thanks
+    ------------*/
+    .thanks .swiper-slide
+    {
+        width: 240px;
+    }
+
+
+    .thanks .item
+    {
+        padding: 15px;
+    }
+
+
+
+    /*------------------
+        Consult info
+    ------------------*/
+    .consult_info .author .title
+    {
+        min-height: 179px;
+        padding-left: 188px;
+    }
+
+
+    .consult_info .author .desc
+    {
+        font-size: 16px;
+    }
+
+    .consult_info .author .desc blockquote
+    {
+        padding: 8px 0 8px 15px;
+    }
+
+
+    .consult_info .author .photo
+    {
+        width: 164px;
+    }
+
+
+
+    .consult_info .chapter > .title
+    {
+        font-size: 20px;
+
+        padding-bottom: 11px;
+    }
+
+
+    .consult_info .chapter > .title small
+    {
+        font-size: 16px;
+    }
+
+
+
+    .consult_info .problems .row
+    {
+        margin-bottom: -10px;
+        margin-left: 0;
+    }
+
+
+    .consult_info .problems .row > *
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+
+    .consult_info .problems .item
+    {
+        padding: 16px 20px 12px;
+    }
+
+
+    .consult_info .problems .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .consult_info .problems .other
+    {
+        padding: 0 20px;
+    }
+
+
+
+    .consult_info .course .video .name
+    {
+        margin-top: 10px;
+    }
+
+
+
+    .consult_info .cost .price .val
+    {
+        width: 100%;
+    }
+
+
+    .consult_info .cost .price .desc
+    {
+        font-size: 16px;
+
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: center;
+    }
+
+
+
+    /*-------------
+        Tariffs
+    -------------*/
+    .tariffs .info
+    {
+        margin-left: 0;
+    }
+
+
+    .tariffs .info > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .tariffs .row
+    {
+        margin-left: 0;
+    }
+
+
+    .tariffs .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper-slide,
+    .cases .swiper-slide.small
+    {
+        width: calc(100vw - 80px);
+    }
+
+
+    .cases .case .data
+    {
+        width: 100%;
+    }
+
+
+    .cases .case .images
+    {
+        width: 100%;
+    }
+
+
+    .cases .case * + .images
+    {
+        margin-top: 24px;
+    }
+
+
+
+    .cases .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-left: 0;
+    }
+
+
+    .steps .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .steps .step:after,
+    .steps .step:nth-child(3n+2):after
+    {
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        display: block;
+
+        width: 8px;
+        height: 24px;
+        margin: 1px auto 0;
+
+        background: linear-gradient(180deg, rgba(206, 86, 86, .00) 0%, #ce5656 100%);
+    }
+
+
+    .steps .step .number
+    {
+        font-size: 20px;
+
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+
+
+
+    /*--------------------
+        Education head
+    --------------------*/
+    .education_head .row
+    {
+        margin-left: 0;
+    }
+
+
+    .education_head .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------------
+        Education video
+    ---------------------*/
+    .education_video .thumb .icon
+    {
+        width: 68px;
+        height: 48px;
+    }
+
+
+    .education_video .video .desc
+    {
+        font-size: 16px;
+
+        position: relative;
+
+        margin-top: 16px;
+        padding: 0;
+
+        color: var(--text_color);
+    }
+
+
+
+    /*--------------------
+        Education plan
+    --------------------*/
+    .education_plan .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .education_plan .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .education_plan .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------------------
+        Education additional
+    --------------------------*/
+    .education_additional .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .education_additional .item .number
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------------------
+        Education steps
+    ---------------------*/
+    .education_steps .row
+    {
+        margin-left: 0;
+    }
+
+
+    .education_steps .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .education_steps .step:after,
+    .education_steps .step:nth-child(3n+2):after
+    {
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        display: block;
+
+        width: 8px;
+        height: 24px;
+        margin: 1px auto 0;
+
+        background: linear-gradient(180deg, rgba(255, 255, 255, .00) 0%, #fff 100%);
+    }
+
+
+    .education_steps .step:last-child:after
+    {
+        display: none;
+    }
+
+
+
+    .education_steps .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*--------------
+        Expenses
+    --------------*/
+    .expenses .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 20px;
+    }
+
+
+    .expenses .item .number
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------------
+        Education excerpts
+    ------------------------*/
+    .education_excerpts .video .icon
+    {
+        width: 68px;
+        height: 48px;
+    }
+
+
+
+    /*-----------------
+        Course cert
+    -----------------*/
+    .course_cert .block_head
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .course_cert .image
+    {
+        width: 100%;
+    }
+
+
+
+    .course_cert .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*-----------------
+        Course info
+    -----------------*/
+    .course_info .head .row
+    {
+        margin-left: 0;
+    }
+
+
+    .course_info .head .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .course_info .video .thumb .icon
+    {
+        width: 68px;
+        height: 48px;
+    }
+
+
+    .course_info .video .desc
+    {
+        font-size: 16px;
+
+        position: relative;
+
+        margin-top: 16px;
+        padding: 0;
+
+        color: var(--text_color);
+    }
+
+
+
+    /*------------------
+        What you get
+    ------------------*/
+    .what_you_get .row
+    {
+        margin-left: 0;
+    }
+
+
+    .what_you_get .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .what_you_get .item .icon
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*--------------------
+        Course results
+    --------------------*/
+    .course_results .swiper-slide
+    {
+        width: calc(100vw - 80px);
+    }
+
+
+    .course_results .grid
+    {
+        gap: 10px;
+    }
+
+
+    .course_results .image
+    {
+        width: calc(50% - 5px);
+        padding: 16px;
+    }
+
+
+    .course_results .big_image
+    {
+        padding: 16px;
+    }
+
+
+
+    .course_results .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*---------------------
+        Course for whom
+    ---------------------*/
+    .course_for_whom .row
+    {
+        margin-left: 0;
+    }
+
+
+    .course_for_whom .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .course_for_whom .item .thumb
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .course_for_whom .item .name
+    {
+        font-size: 18px;
+
+        width: calc(100% - 120px);
+    }
+
+
+    .course_for_whom .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*-------------------------
+        Course step by step
+    -------------------------*/
+    .course_step_by_step .swiper-slide
+    {
+        width: calc(100vw - 80px);
+    }
+
+
+    .course_step_by_step .bg
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*-----------------------------
+        Course skills & results
+    -----------------------------*/
+    .course_skills_results .tools .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .course_skills_results .tools .item
+    {
+        height: 100px;
+    }
+
+
+    .course_skills_results .tools .more
+    {
+        justify-content: center;
+
+        width: calc(100% - 12px);
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    .course_skills_results .tools .more br
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Course values
+    -------------------*/
+    .course_values .row
+    {
+        margin-left: 0;
+    }
+
+
+    .course_values .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .course_values .item .icon
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .course_values .item .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Course steps
+    ------------------*/
+    .course_steps .row
+    {
+        margin-left: 0;
+    }
+
+
+    .course_steps .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .course_steps .step:after,
+    .course_steps .step:nth-child(3n+2):after
+    {
+        top: 100%;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        display: block;
+
+        width: 8px;
+        height: 24px;
+        margin: 1px auto 0;
+
+        background: linear-gradient(180deg, rgba(206, 86, 86, .00) 0%, #ce5656 100%);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .logo img
+    {
+        width: 200px;
+    }
+
+
+    footer .links.mob_big
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    footer .links .title + .title
+    {
+        margin-top: 16px;
+    }
+
+
+    footer .bottom
+    {
+        order: 3;
+
+        margin-top: 24px;
+        padding-top: 24px;
+    }
+
+
+    footer .bottom .col,
+    footer .bottom .col:first-child
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .phone
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        text-align: center;
+    }
+
+
+    footer .youtube_link
+    {
+        order: 0;
+
+        margin: 24px auto 0;
+    }
+
+
+    footer .youtube_link a
+    {
+        padding: 9px 19px;
+    }
+}
